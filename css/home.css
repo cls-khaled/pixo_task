@@ -1,61 +1,106 @@
+/* Ordring convention : 
+*   1. positioning
+*   2. box-model
+*   3. typography
+*   4. visual
+*   5. animation
+*   6. miscellanous
+*/
 @import url("./utility.css");
-
+/* ########## Header section ##########*/
 .header{
-    /* background-color: #5c2727; */
-    width: 100%;
-    /* min-width: 1920px;  */ 
-    min-width: 1280px; /* 1280px is the standard width for a website */
-    height: var(--header-height); 
-    border-bottom: var(--stroke); 
-}
-
-.nav-bar{
-    /* background-color: gray; */
-    width: 90%;
     height: var(--header-height);
-    line-height: var(--header-height);
-    margin: 0px auto;
+    width: 100%;
+    min-width: 1920px;
+    border-bottom: var(--stroke);
+    /* background-color: #54fd12; */
 }
+.nav-bar{
+    width: var(--boxed-width);
+    height: 100%;
+    margin: 0px auto;
+    /* background-color: rgb(67, 175, 189); */
+}
+/* ####################*/
 
+/* ########## Nav structure ##########*/
+.nav-left-side{
+    height: 100%;
+    float: left;
+    display: inline;
+    /* background-color: saddlebrown; */
+}
+.nav-right-side{
+    height: 100%;
+    float: right;
+    /* background-color: blueviolet; */
+}
+/* ####################*/
+
+/* ########## Nav left side ##########*/
 .site-logo{
-    height: 45px;
     width: 142px;
-    /* margin: auto  0px; */
+    height: 45px;
     vertical-align: middle;
 }
-
 .nav-menu{
-    /* background-color: aqua; */
-    display: inline;
+    height: 100%;
     margin-left: 80px;
+    line-height: var(--header-height);
+    display: inline-block;
+    vertical-align: middle;
+    /* background-color: rgb(154, 156, 20); */
 }
-
 .nav-menu li{
+    height: 100%;
+    padding: 0px 18px;
     display: inline;
-    margin-left: 20px;
-    font-size: 1em;
+    font-size: 1.5em; /* 24px */
+    /* background-color: red; */
 }
-.nav-menu img {
+.nav-menu li img {
     width: 12px;
     height: 12px;
 }
+/* ####################*/
 
-.nav-right-section{
-    /* background-color: red; */
-    display: inline;
-    float: right;
-}
-
-.nav-right-icons{
-    /* background-color: yellow; */
-    display: inline;
-}
-
-.nav-right-icons li {
-    display: inline;
-    margin-left: 20px;
-}
-
+/* ########## Nav right side ##########*/
 .nav-register{
-    border-bottom: var(--stroke);
+   margin-right: 48px;
+   line-height: var(--header-height);
+   font-size: 1em; /* 16px */
+   border-bottom: var(--stroke);
 }
+.nav-right-icons{
+    display: inline-block;
+}
+.nav-right-icons img{
+    width: 20px;
+    height: 20px;
+}
+
+.nav-right-icons li{
+    padding: 0px 15px;
+    display: inline-block;
+}
+.nav-right-icons li:last-child{
+    margin-left: 25px;
+}
+/* ####################*/
+
+/* ########## collections section ##########*/
+.collections{
+    height: 850px;
+    border-bottom: var(--stroke);
+    /* background-color: rgba(255, 250, 243, 1);  */
+    background-color: rgba(255, 250, 0, 1);
+}
+.collections p{
+    font-size: 5em;
+    text-align: center;
+    display: block;
+    margin-top: 100px; 
+}
+/* ####################*/
+
+

@@ -6,7 +6,7 @@
 
 :root{
     --header-height: 81px;
-    --small-box-width: 90%;
+    --boxed-width: 90%;
     --stroke : 1px solid  rgba(0, 0, 0, 0.1);
 }
 
