@@ -11,7 +11,7 @@
 .header{
     height: var(--header-height);
     width: 100%;
-    min-width: 1920px;
+    min-width: var(--screen-min-width);
     border-bottom: var(--stroke);
     /* background-color: #54fd12; */
 }
@@ -91,16 +91,19 @@
 /* ########## collections section ##########*/
 .collections{
     height: 850px;
+    min-width: var(--screen-min-width);
     border-bottom: var(--stroke);
     /* background-color: rgba(255, 250, 243, 1);  */
     background-color: rgba(255, 250, 0, 1);
+    /* solution with flex */
+    display: flex;
+    justify-content: center;
 }
 .collections p{
     font-size: 5em;
-    text-align: center;
-    display: block;
-    margin-top: 100px; 
+    background-color: red;
+    /* solution with flex */
+    margin: auto;
 }
 /* ####################*/
-
 
