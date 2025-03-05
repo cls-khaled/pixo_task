@@ -1,0 +1,61 @@
+@import url("./utility.css");
+
+.header{
+    /* background-color: #5c2727; */
+    width: 100%;
+    /* min-width: 1920px;  */ 
+    min-width: 1280px; /* 1280px is the standard width for a website */
+    height: var(--header-height); 
+    border-bottom: var(--stroke); 
+}
+
+.nav-bar{
+    /* background-color: gray; */
+    width: 90%;
+    height: var(--header-height);
+    line-height: var(--header-height);
+    margin: 0px auto;
+}
+
+.site-logo{
+    height: 45px;
+    width: 142px;
+    /* margin: auto  0px; */
+    vertical-align: middle;
+}
+
+.nav-menu{
+    /* background-color: aqua; */
+    display: inline;
+    margin-left: 80px;
+}
+
+.nav-menu li{
+    display: inline;
+    margin-left: 20px;
+    font-size: 1em;
+}
+.nav-menu img {
+    width: 12px;
+    height: 12px;
+}
+
+.nav-right-section{
+    /* background-color: red; */
+    display: inline;
+    float: right;
+}
+
+.nav-right-icons{
+    /* background-color: yellow; */
+    display: inline;
+}
+
+.nav-right-icons li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-register{
+    border-bottom: var(--stroke);
+}

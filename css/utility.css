@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+
+:root{
+    --header-height: 81px;
+    --small-box-width: 90%;
+    --stroke : 1px solid  rgba(0, 0, 0, 0.1);
+}
+
